@@ -53,9 +53,12 @@
     justify-content: space-around;
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
  
 =======
+=======
+>>>>>>> footer
   .btn {
     padding: 0 10px;
     height: 40px;
@@ -119,5 +122,30 @@
     width: 80vw;
     padding: 5px;
   }
+<<<<<<< HEAD
   
 >>>>>>> section
+=======
+  footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+  }
+  footer > ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer > ul > li {
+    padding: 0 10px;
+  }
+  
+  footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+  }
+  
+>>>>>>> footer
