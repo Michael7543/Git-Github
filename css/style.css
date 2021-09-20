@@ -28,7 +28,6 @@
     align-items: center;
     background-color:  #FDEDEC;
   }
- 
   .logo {
     width: 30vw;
   }
@@ -52,5 +51,100 @@
     flex-direction: row;
     justify-content: space-around;
   }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
  
+=======
+=======
+>>>>>>> footer
+  .btn {
+    padding: 0 10px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 3px black solid;
+    border-radius: 2px;
+    background: transparent;
+    cursor: pointer;
+  }
+  .grid {
+    display: flex;
+  }
+  #hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    margin-top: 50px;
+  }
+  #hero > h2 {
+    margin-bottom: 20px;
+    word-wrap: break-word;
+  }
+  #hero input[type='email'] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+  }
+  #hero input[type='submit'] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color:#AED6F1 ;
+  }
+  #hero input[type='submit']:hover {
+    background-color: orange;
+    transition: background-color 1s;
+  }
+  #features {
+    margin-top: 30px;
+  }
+  #features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+  }
+  #features .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+  }
+<<<<<<< HEAD
+  
+>>>>>>> section
+=======
+  footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+  }
+  footer > ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer > ul > li {
+    padding: 0 10px;
+  }
+  
+  footer > span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+  }
+  
+>>>>>>> footer
